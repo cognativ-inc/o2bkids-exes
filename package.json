@@ -1,0 +1,21 @@
+{
+  "name": "beekeeper-interview-exercises",
+  "version": "1.0.0",
+  "description": "Take-home / live coding exercises for a full-stack engineer interview",
+  "private": true,
+  "scripts": {
+    "ex1": "ts-node exercise1.starter.ts",
+    "ex2": "ts-node exercise2.starter.ts",
+    "ex3": "ts-node exercise3.starter.ts",
+    "test": "npm run ex1 && npm run ex2 && npm run ex3",
+    "sol1": "ts-node exercise1.solution.ts",
+    "sol2": "ts-node exercise2.solution.ts",
+    "sol3": "ts-node exercise3.solution.ts",
+    "solutions": "npm run sol1 && npm run sol2 && npm run sol3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  }
+}
