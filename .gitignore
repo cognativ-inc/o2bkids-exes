@@ -1,2 +1,4 @@
 node_modules/
 *.log
+*.solution.ts
+.DS_Store
